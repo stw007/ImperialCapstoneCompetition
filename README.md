@@ -13,8 +13,8 @@ noted its conclusion that "*Our modification... reveals that standard
 Bayesian optimization works drastically better than previously thought
 in high dimensions, clearly outperforming existing state-of-the-art
 algorithms on multiple commonly considered real-world high-dimensional
-tasks.*" I decided to use their approach as my starting point, along
-with their customisation of the "[BoTorch](https://botorch.org/)"
+tasks.*" I decided to use its approach as my starting point, along
+with the authors' customisation of the "[BoTorch](https://botorch.org/)"
 library to implement tuned Bayesian Optimisation (module 12) in PyTorch.
 
 I was also interested to see how well various AI models could understand
@@ -123,9 +123,7 @@ inconclusive.
 I implemented some alternative regressors based on K-Nearest Neighbour
 (module 8), Random Forest (modules 9-10), Gradient Boosting and Support
 Vector Regression (module 14), but none performed as well as my existing
-approaches. However, I
-
-realised that I could be more ambitious with my choice of kernel, so I
+approaches. However, I realised that I could be more ambitious with my choice of kernel, so I
 added a dictionary of kernels with "Automatic Relevance Determination"
 versions of RBF and Matern plus others with noise, periodicity, etc. and
 various combinations. I also extended my code to handle logs of output
