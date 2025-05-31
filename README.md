@@ -240,7 +240,7 @@ competitions.
 
 **Jupyter Notebook**
 
-See XXX and comments therein.
+See [ProcessFunction_final.ipynb](ProcessFunction_final.ipynb) and comments therein.
 
 **Visualisations**
 
