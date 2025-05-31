@@ -244,4 +244,4 @@ See XXX and comments therein.
 
 **Visualisations**
 
-See the example at Visualisations/index.html XXX
+See the examples [here](Visualisation_Example/index.html).
