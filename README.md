@@ -1,6 +1,6 @@
 **Initial Approach**
 
-My aim was to produce a [Jupyter](https://jupyter.org/) Notebook to
+My aim was to produce a [Jupyter Notebook](ProcessFunction_final.ipynb) to
 analyse the inputs and outputs of an unknown function and recommend the
 best candidate input to try next, in order to maximise it. I wanted to
 create a general solution which could be used for arbitrary functions.
