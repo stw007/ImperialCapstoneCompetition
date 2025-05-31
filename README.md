@@ -144,9 +144,8 @@ projected values than my current best. Sometimes, this was because I had
 found a reliable maximum, e.g. F5 seemed to be a multiplicative
 function, maximised when all its inputs were; but in a couple of cases
 the algorithm was just struggling. I decided to investigate feature
-engineering (module 16), and added an optional preprocessing step to add
-bespoke features to each function, as this seemed a difficult process to
-generalise. I used Claude to suggest features, keeping the numbers
+engineering (module 16), and added an optional preprocessing method to add
+bespoke features to each function. I used Claude to suggest features, keeping the numbers
 fairly small and in proportion to the amount of data. The implementation
 was more complicated than I had hoped: with scikit-learn, it was
 straightforward to operate in the real function dimensions for most of
