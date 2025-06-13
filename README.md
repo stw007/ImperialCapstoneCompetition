@@ -193,32 +193,32 @@ presumably because it took longer to identify good regions in the early
 stages. I would have stuck with the same approach if the competition had
 continued, particularly for those functions.
 
-F1: From the functional form, I knew I had found the maximum.
+F1: From the functional form, I knew I had found the maximum. (#1 on final leaderboard)
 
 F2: This was a complicated function of one variable with the other
 almost irrelevant, so I was struggling to find the global maximum on a
 high ridge, given the noise. I tried analysing it as a 1D function
-instead.
+instead. (#10 - by far the worst function)
 
 F3: This seemed to have multiple high areas but I had found a maximum
-very close to zero.
+very close to zero. (#2)
 
 F4: The function seemed fairly well behaved but with one significant
 interaction (SHAP curves splitting into two), and I had found a
-reasonable maximum.
+reasonable maximum. (#2)
 
 F5: This seemed to be a straightforward multiplicative function and I
-had found the maximum.
+had found the maximum. (#1)
 
 F6: The function seemed fairly well behaved but with one significant
 interaction (SHAP curves splitting into two), and I had found a
-reasonable maximum close to zero.
+reasonable maximum close to zero. (#1)
 
 F7: I was finally finding new maxima every week, but the function was
-complex.
+complex. (#2)
 
 F8: The function seemed fairly well behaved, and I had found a good
-maximum.
+maximum. (#2)
 
 **Lessons Learned**
 
